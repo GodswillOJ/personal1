@@ -1,0 +1,354 @@
+
+a{
+    text-decoration: none;
+}
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%; 
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+} 
+
+/* nav */
+.carts{
+    display: flex;
+}
+.carts a li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+.carts a li:hover{
+background-color: rgb(210, 207, 204);
+}
+.about{
+    display: flex;
+    
+}
+.about a li{
+    list-style: none;
+    padding: 5px;
+}
+.about a {
+    text-decoration: none;
+}
+.about a li:hover {
+    background-color: rgb(210, 207, 204);
+}
+
+/* header */
+main{
+    background-image: url('../images/dev1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.more_in{
+    display: flex;
+    color: white;
+    padding: 15%;
+    justify-content: center;
+}
+#myImage img{
+    width: 120px;
+    border-radius: 38px 18px 38px 18px;
+    box-shadow: 0px 10% rgb(24, 1, 1, 0.01);
+}
+.more_in .my_in{
+    padding-left: 40px;;
+}
+
+ /* Section_title */
+ .section{
+    padding-block: 2.5rem;
+}
+.section__border{
+    border-bottom: 1px solid rgb(52, 50, 50);
+    padding-bottom: 3.5rem;
+}
+.section__title,
+.section__subtitle{
+    text-align: center;
+}
+.section__title{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: .25rem ;
+} 
+.section__subtitle{
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+ /* Projects */
+
+ .projects__container{
+    overflow: initial;
+ }
+
+ .projects__content{
+    display: grid;
+    justify-content: center;
+ }
+
+ .projects__img{
+    width: 250px;
+    margin-bottom: 1.25rem;
+    border-radius: 0.75rem;
+ }
+
+ .projects__subtitle{
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+ }
+
+ .projects__title{
+    font-size: 25px;
+    margin-bottom: 1.25rem;
+    margin: .5rem 0 1.25rem;
+ }
+
+ .projects__button{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: rgb(15, 15, 28);
+    font-size: 20px;
+ }
+
+ .projects__button i{
+    font-size: 1rem;
+    transition: transform .3s;
+ }
+
+ .projects__button:hover i{
+    transform: translateX(.25rem);
+ }
+
+ /* Swiper class */
+.projects__container .swiper-button-prev::after,
+.projects__container .swiper-button-next::after{
+   content: ''; 
+}
+
+.projects__container .swiper-button-prev,
+.projects__container .swiper-button-next{
+    width: initial;
+    height: initial;
+    margin: initial;
+    font-size: 2.5rem;
+    color: rgb(26, 25, 25);
+}
+
+.projects__container .swiper-button-prev{
+    left: 1rem;
+    top: 4.5rem;
+}
+
+.projects__container .swiper-button-next{
+    right: 1rem;
+    top: 4.5rem;
+}
+
+.projects__container .swiper-slide{
+    margin-bottom: 4.5rem;
+}
+
+.projects__container .swiper-pagination-bullets{
+    bottom: 0;
+}
+
+.projects__container .swiper-pagination-bullet{
+    background-color: black;
+    opacity: initial;
+}
+
+.projects__container .swiper-pagination-bullet-active{
+    background-color: rgb(111, 110, 110);
+}
+
+
+
+@media screen and (max-width: 1690px) {
+    body{
+        overflow-x:hidden ;
+    }
+/* nav */
+.carts{
+    display: flex;
+}
+.carts a li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+.carts a li:hover{
+background-color: rgb(210, 207, 204);
+}
+.about{
+    display: flex;
+    
+}
+.about a li{
+    list-style: none;
+    padding: 5px;
+}
+.about a {
+    text-decoration: none;
+}
+.about a li:hover {
+    background-color: rgb(210, 207, 204);
+}
+
+/* header */
+main{
+    background-image: url('../images/dev1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.more_in{
+    display: flex;
+    color: white;
+    padding: 15%;
+    justify-content: center;
+}
+#myImage img{
+    width: 120px;
+    border-radius: 38px 18px 38px 18px;
+    box-shadow: 0px 10% rgb(24, 1, 1, 0.01);
+}
+.more_in .my_in{
+    padding-left: 40px;;
+}
+
+ /* Section_title */
+ .section{
+    padding-block: 2.5rem;
+}
+.section__border{
+    border-bottom: 1px solid rgb(52, 50, 50);
+    padding-bottom: 3.5rem;
+}
+.section__title,
+.section__subtitle{
+    text-align: center;
+}
+.section__title{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: .25rem ;
+} 
+.section__subtitle{
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+ /* Projects */
+
+ .projects__container{
+    overflow: initial;
+ }
+
+ .projects__content{
+    display: grid;
+    justify-content: center;
+ }
+
+ .projects__img{
+    width: 250px;
+    margin-bottom: 1.25rem;
+    border-radius: 0.75rem;
+ }
+
+ .projects__subtitle{
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+ }
+
+ .projects__title{
+    font-size: 25px;
+    margin-bottom: 1.25rem;
+    margin: .5rem 0 1.25rem;
+ }
+
+ .projects__button{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: rgb(15, 15, 28);
+    font-size: 20px;
+ }
+
+ .projects__button i{
+    font-size: 1rem;
+    transition: transform .3s;
+ }
+
+ .projects__button:hover i{
+    transform: translateX(.25rem);
+ }
+
+ /* Swiper class */
+.projects__container .swiper-button-prev::after,
+.projects__container .swiper-button-next::after{
+   content: ''; 
+}
+
+.projects__container .swiper-button-prev,
+.projects__container .swiper-button-next{
+    width: initial;
+    height: initial;
+    margin: initial;
+    font-size: 2.5rem;
+    color: rgb(26, 25, 25);
+}
+
+.projects__container .swiper-button-prev{
+    left: 1rem;
+    top: 4.5rem;
+}
+
+.projects__container .swiper-button-next{
+    right: 1rem;
+    top: 4.5rem;
+}
+
+.projects__container .swiper-slide{
+    margin-bottom: 4.5rem;
+}
+
+.projects__container .swiper-pagination-bullets{
+    bottom: 0;
+}
+
+.projects__container .swiper-pagination-bullet{
+    background-color: black;
+    opacity: initial;
+}
+
+.projects__container .swiper-pagination-bullet-active{
+    background-color: rgb(111, 110, 110);
+}
+
+}
+@media screen and (max-width: 1200px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 560px) {
+    body{
+        overflow: hidden;
+    }
+    
+}
