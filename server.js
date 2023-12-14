@@ -12,7 +12,7 @@ const port = 5000;
 
 app.use(express.static(__dirname + "/docs"))
 app.use(express.static("public"))
-app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
+app.use("/images", express.static(__dirname + "public/images"))
 app.use("/css", express.static(__dirname + "public/css"))
 app.use("/js", express.static(__dirname + "public/js"))
 
