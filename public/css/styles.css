@@ -39,8 +39,7 @@ background-color: rgb(210, 207, 204);
 }
 .about a li{
     list-style: none;
-    padding: 15px;
-    font-size: 18px;
+    padding: 5px;
 }
 .about a {
     text-decoration: none;
