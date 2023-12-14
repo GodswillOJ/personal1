@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 
 app.get("", (req, res) => {
-    res.render("index.ejs")
+      res.sendFile(path.join(__dirname, 'docs', 'index.ejs'));
 })
 app.get("", (req, res) => {
     res.sendFile(__dirname + "/public/css/styles.css")
