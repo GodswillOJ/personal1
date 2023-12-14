@@ -18,3 +18,15 @@ let swiperProjects = new Swiper('.swiper', {
     }
   },
 });
+
+
+/*=============== TESTIMONIAL SWIPER ===============*/
+let swiperTestimonial = new Swiper(".testimonial__container", {
+  grabCursor: true,
+  loop: 'true',
+
+  navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
+});
